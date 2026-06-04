@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Eneko/Scenes/Menu.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Eneko/Scenes/Planos.unity
+    guid: cc510652f50e9504196ebb9254570249
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e559bdfe26fec3243914e1586cd11928, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 8bfea3735f3a9f94a927d72dc02a84be, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6956ffe960869cc409c53d8d92b4a957, type: 2}
   m_UseUCBPForAssetBundles: 0
